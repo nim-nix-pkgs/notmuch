@@ -11,7 +11,6 @@
   inputs.src-notmuch-master.ref   = "refs/heads/master";
   inputs.src-notmuch-master.owner = "samdmarshall";
   inputs.src-notmuch-master.repo  = "notmuch.nim";
-  inputs.src-notmuch-master.dir   = "";
   inputs.src-notmuch-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
